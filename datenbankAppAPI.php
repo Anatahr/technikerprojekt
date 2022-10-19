@@ -3,7 +3,7 @@
         $Encoded=file_get_contents('php://input');
         $Decoded=json_decode($Encoded,true);
         $APIString=$Decoded["Schluesel"];
-        if($APIString=="fdcgDSWcPxNEcYFhm9PAS4mhgzP2HjNqCzvkYX9Y4sPccsP4yH3o8ujQvvYm9ez6Jtyv9abxQxMJfHfRMiLn3r3Pns9EKmCQH9zMtfWVLVAcnrRLQrcfjZPqUhS2HTTJ")
+        if($APIString=="")
         {
                 $CN=mysqli_connect("localhost","applogin","2B@apC6CfUPM9i@T6p#pS6TBd!o25sV7ouEsM2B");
                 $DB=mysqli_select_db($CN,"Homesecurity");
