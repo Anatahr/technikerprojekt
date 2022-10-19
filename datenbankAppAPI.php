@@ -5,8 +5,8 @@
         $APIString=$Decoded["Schluesel"];
         if($APIString=="")
         {
-                $CN=mysqli_connect("localhost","applogin","2B@apC6CfUPM9i@T6p#pS6TBd!o25sV7ouEsM2B");
-                $DB=mysqli_select_db($CN,"Homesecurity");
+                $CN=mysqli_connect("localhost","Loginname","pw");
+                $DB=mysqli_select_db($CN,"datenbank");
 
                 $SQ="SELECT * from Entsperlog ORDER BY Nr DESC LIMIT 10";
                 $Table=mysqli_query($CN,$SQ);
