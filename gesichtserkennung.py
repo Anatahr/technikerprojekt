@@ -16,10 +16,10 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(16, GPIO.OUT)
 
 mydb = mysql.connector.connect(
-host="85.214.122.76",
-user="raspberrypilogin",
-password="c6nHSG$EKBSPY*#%gohQnbkFouYZ$MKGa53hSFJ",
-database="Homesecurity"
+host="datenbankIp",
+user="datenbankLoginName",
+password="pwDatenbankLogin",
+database="Datenbank"
 )
 
 print("Code gestartet!")
